@@ -45,33 +45,31 @@ let lista = [
 ];
 
 function nombre() {
-  let nombreUsuario = localStorage.getItem("usuario")
-  if(!nombreUsuario){
-     nombreUsuario = prompt("ingrese su nombre");
-  console.log(nombreUsuario);
+  let nombreUsuario = JSON.parse(localStorage.getItem("usuario"));
+  if (!nombreUsuario) {
+    nombreUsuario = prompt("ingrese su nombre");
+    console.log(nombreUsuario);
   }
-  
+
   if (nombreUsuario !== null) {
     let usuarioFiltrado = lista.filter((item) => item.nombre === nombreUsuario);
     console.log(usuarioFiltrado);
     if (usuarioFiltrado.length > 0) {
-      let button = document.createElement('div');
-        button.classList.add('button');
+      let button = document.createElement("div");
+      button.classList.add("button");
 
-        button.innerHTML = `desconectar`
+      button.innerHTML = `desconectar`;
 
-        document.body.appendChild(button)
+      document.body.appendChild(button);
 
-        button.addEventListener('click', function() {
-          
-          localStorage.removeItem('usuario');
-          window.location.reload()
-          
+      button.addEventListener("click", function () {
+        localStorage.removeItem("usuario");
+        window.location.reload();
       });
 
       usuarioFiltrado.forEach((usuario) => {
-        let card = document.createElement('div');
-        card.classList.add('card');
+        let card = document.createElement("div");
+        card.classList.add("card");
 
         card.innerHTML = `
           <strong>${usuario.nombre} ${usuario.apellido}</strong><br>
@@ -80,15 +78,16 @@ function nombre() {
           Telefono: ${usuario.telefono}
         `;
 
-        document.body.appendChild(card)
-        localStorage.setItem("usuario", nombreUsuario)
+        document.body.appendChild(card);
       });
+      // pasamos el nombre de usuario a formato json
+      let usuarioConvertido = JSON.stringify(nombreUsuario);
+      // guardamos el usuario formateado
+      localStorage.setItem("usuario", usuarioConvertido);
     } else {
       alert("Usuario no encontrado");
     }
   }
 }
-
-
 
 nombre();
