@@ -1,0 +1,108 @@
+[
+    {
+      "nombre": "Mariana",
+      "apellido": "Garcia",
+      "cedula": 41456958,
+      "edad": 40,
+      "telefono": 92598756
+    },
+    {
+      "nombre": "Joel",
+      "apellido": "Cabrera",
+      "cedula": 46327892,
+      "edad": 42,
+      "telefono": 96567456
+    },
+    {
+      "nombre": "Maria",
+      "apellido": "Silveira",
+      "cedula": 9865324,
+      "edad": 24,
+      "telefono": 94562315
+    },
+    {
+      "nombre": "Luisa",
+      "apellido": "Altamiranda",
+      "cedula": 19872314,
+      "edad": 70,
+      "telefono": 94712698
+    },
+    {
+      "nombre": "Sergio",
+      "apellido": "Muniz",
+      "cedula": 3621987,
+      "edad": 85,
+      "telefono": 36521456
+    },
+    {
+      "nombre": "Noire",
+      "apellido": "Migues",
+      "cedula": 24893569,
+      "edad": 56,
+      "telefono": 98320146
+    },
+    {
+      "nombre": "Odin",
+      "apellido": "Altamiranda",
+      "cedula": 62318974,
+      "edad": 25,
+      "telefono": 96741836
+    },
+    {
+      "nombre": "Simba",
+      "apellido": "Gutierrez",
+      "cedula": 38974125,
+      "edad": 64,
+      "telefono": 93823789
+    },
+    {
+      "nombre": "Claudia",
+      "apellido": "Mendez",
+      "cedula": 61473968,
+      "edad": 36,
+      "telefono": 96378116
+    },
+    {
+      "nombre": "Andres",
+      "apellido": "Lima",
+      "cedula": 21476650,
+      "edad": 56,
+      "telefono": 93874123
+    },
+    {
+      "nombre": "Mariana",
+      "apellido": "Lima",
+      "cedula": 21476650,
+      "edad": 56,
+      "telefono": 93874123
+    },
+    {
+      "nombre": "Joel",
+      "apellido": "Rodrigues",
+      "cedula": 21476650,
+      "edad": 56,
+      "telefono": 93874123
+    },
+    {
+      "nombre": "Noire",
+      "apellido": "Bertotti",
+      "cedula": 21476650,
+      "edad": 56,
+      "telefono": 93874123
+    },
+    {
+      "nombre": "Odin",
+      "apellido": "Fernandez",
+      "cedula": 21476650,
+      "edad": 56,
+      "telefono": 93874123
+    },
+    {
+      "nombre": "Simba",
+      "apellido": "Secco",
+      "cedula": 21476650,
+      "edad": 56,
+      "telefono": 93874123
+    }
+  ]
+  
